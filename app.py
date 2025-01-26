@@ -41,16 +41,18 @@ def user_input_features():
 
 input_data = user_input_features()
 
-st.subheader("Customer Details")
-st.write(input_data)
+if st.button("Predict"):
+    st.subheader("Customer Details")
+    st.write(input_data)
 
-input_data_transformed = preprocessor.transform(input_data)
+    input_data_transformed = preprocessor.transform(input_data)
 
-prediction_probs = model.predict(input_data_transformed)
-prediction = (prediction_probs > 0.5).astype(int)
+    prediction_probs = model.predict(input_data_transformed)
+    prediction = (prediction_probs > 0.5).astype(int)
 
-st.subheader("Prediction Result")
-if prediction[0][0] == 1:
-    st.error("The customer is likely to EXIT.")
-else:
-    st.success("The customer is likely to STAY.")
+    st.subheader("Prediction Result")
+    if prediction[0][0] == 1:
+        st.error("The customer is likely to EXIT.")
+    else:
+        st.success("The customer is likely to STAY.")
+
