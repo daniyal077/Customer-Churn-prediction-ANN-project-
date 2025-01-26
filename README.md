@@ -94,6 +94,7 @@ This project is a machine learning application designed to predict whether a cus
 ## Screenshots
 ### Streamlit App UI
 - **Input Sidebar**:
+  
   ![image](https://github.com/user-attachments/assets/d0eb0ed0-0d6f-420f-9528-566335343dbd)
 - **Prediction Result**:
   ![image](https://github.com/user-attachments/assets/015e7157-6bf1-49e6-bfbb-a5b72e275238)
