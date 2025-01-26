@@ -13,6 +13,7 @@ This project is a machine learning application designed to predict whether a cus
    - Built using TensorFlow/Keras.
    - Includes multiple layers with dropout regularization to prevent overfitting.
    - Optimized with Adam optimizer and early stopping to improve training efficiency.
+   - Achieves 80% accuracy on training data
 3. **Streamlit Web Application**:
    - Allows users to input customer details via an intuitive sidebar interface.
    - Provides predictions on whether the customer will exit or stay.
@@ -30,8 +31,8 @@ This project is a machine learning application designed to predict whether a cus
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/customer-churn-prediction.git
-   cd customer-churn-prediction
+   git clone https://github.com/daniyal077/Customer-Churn-prediction-ANN-project-.git
+   cd Churn-prediction-ANN-project
    ```
 2. Install dependencies:
    ```bash
@@ -75,6 +76,9 @@ This project is a machine learning application designed to predict whether a cus
 2. **Run the Web App**:
    - Execute `app.py` to launch the Streamlit interface.
    - Input customer details on the sidebar and view predictions in real time.
+   - Access the web application directly at: https://customer-churn-prediction-1o57.onrender.com/.
+  
+
 
 ---
 
