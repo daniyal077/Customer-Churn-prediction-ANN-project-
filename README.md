@@ -113,12 +113,6 @@ This project is a machine learning application designed to predict whether a cus
 
 ---
 
-
-## License
-This project is licensed under the MIT License.
-
----
-
 ## Acknowledgments
 - Dataset source: Kaggle
 - Libraries: TensorFlow, Keras, Streamlit, Scikit-learn, Imbalanced-learn
